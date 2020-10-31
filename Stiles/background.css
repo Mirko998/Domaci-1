@@ -1,7 +1,9 @@
+
 .bckg{
     width: 100%;
     height: 100%;
 }
+/*background positioning first element*/
 .orange{
     position: fixed;
    top: 0%;
@@ -11,7 +13,6 @@
     width: 120vw;
     height: 120vw;
     border-radius: 50%;
-    background-color: ;
     z-index: -100;
   
 
