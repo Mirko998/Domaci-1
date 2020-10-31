@@ -47,11 +47,17 @@ h2{
 /* SECTION 5 */
 
 .review{
-   
+   display: flex;
+}
+
+
+.pic{
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 .box-1{
- 
+    overflow: hidden;
 
 }
 
