@@ -83,7 +83,8 @@ h2{
     border: 1px solid black; 
     display: flex;
     flex-direction: column;
-  
+    align-content: center;
+    justify-content: center;
 
 }
 .task h1,p{
@@ -92,7 +93,7 @@ h2{
 }
 .task .input-box{
     display: inline-block;
-    padding: 7% 0;
+    padding: 7% 0 0 0 ;
 
 }
 .logo{
@@ -100,7 +101,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    background-color: red;
+    
 }
 .logo img{
     padding: 5% 0 5% 3% ;
