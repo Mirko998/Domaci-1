@@ -2,9 +2,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #f1f1f1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-family:"Roboto" ;
+    font-size: 75px;
+    font-weight: bolder ;
+}
+p{
+    
+    font-family: "Roboto";
+    font-size: 20px;
 }
 h2{
     text-align: center;
@@ -71,16 +81,16 @@ h2{
 /*section-1 and task*/
 .section-1{
     display: grid;
+    max-width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "task boxes" 
                          "logo boxes";  
-   border: 10px solid green;
    
 }
 .task{
+    padding-left: 5%;
     grid-area: task;
-    border: 1px solid black; 
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -97,6 +107,9 @@ h2{
 
 }
 .logo{
+    
+    padding-left: 5%;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -116,49 +129,40 @@ h2{
 }
 /*kutijicee*/
 .box{
+    
   grid-area: boxes;
-  background-color: greenyellow;
+  max-width: 100%;
   
 }
+/*shadow for graphics, top right*/
 .boxes{
-    background-color: white;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+    position: absolute;
 }
-.people{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.top-area{
-    width: 100%;
-    height:20%;
-    background-color: tan;
-}
-.box ol{
-    
-    width: 100%;
-    height: 80%;
-    margin: 0;
-    vertical-align: middle;
-    padding:5% 0;
-    text-align: center;
-    
-}
-.box ol li{
+/*edited positions of 4 graphics*/
+.profile{
+    margin-top: 2%;
+    margin-left: 15%;
+    z-index: -11;
    
-    margin: 5% 10%;
 }
-
-.box hr{
-    margin:5% 5% ;
+.chart{
+    z-index: -12;
+    margin-top: 15%;
+    transform: rotate(5deg);
 }
-.circle{
-    padding: 5%;
-    border-radius: 50%;
-    background-color: red;
-    width: 15%;
-    padding: 15% 0 0 0;    
+.topEarners{
+    margin-top: 25%;
+    margin-left: 25%;
+    z-index: -13;
+   
 }
-
-
+.rank{
+    z-index: -14;
+    margin-top: 30%;
+    margin-left: 5%;
+    transform: rotate(-10deg);
+}
