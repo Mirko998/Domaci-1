@@ -8,7 +8,7 @@ body{
 }
 h1{
     font-family:"Roboto" ;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bolder ;
 }
 p{
@@ -78,7 +78,7 @@ h2{
 .section-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas: "task boxes" 
                          "logo boxes";  
    
@@ -90,6 +90,7 @@ h2{
     align-content: center;
     justify-content: center;
     padding-top: 10%;
+    height: auto;
 }
 .task h1,p{
     padding:2% ;
@@ -103,11 +104,13 @@ h2{
 }
 .logo{
     width: 100%;
+    height: auto;
     margin-top: 20%;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
-    align-content: space-between;
+    
     
 }
 .logo img{
