@@ -342,6 +342,7 @@ header{
     justify-self: flex-end;
 }
 .section-4 .graphs{
+    width: 100%;
     position: relative;
     flex-basis: 50%;
     flex-grow: 1;
@@ -349,19 +350,20 @@ header{
 }
 .section-4 .graphs .first{
     position: absolute;
-    top: 60%;
-    right: 35%;
+    top: 0;
+    right: 0;
+    transform: translate(-50%,70%);
     z-index: -4;
-    max-width:60%;
+    max-width:80%;
     border-radius: 2%;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
 .section-4 .graphs .second{
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: 0;
+    right: 0;
     z-index: -3;
-    max-width:100%;
+    max-width:80%;
     border-radius: 2%;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
