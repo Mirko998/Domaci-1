@@ -3,9 +3,10 @@
     font-size: 16px;
 }
 body{
+    margin: 0;
     background-color: #f1f1f1;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 h1{
     font-family:"Muli" ;
@@ -65,15 +66,17 @@ h2{
 }
 /* HEADER */
 header{
+    width: 80%;
     height: 100px;
+    margin-left: 10%;
 }
 .header-left{
     position: absolute;
-    left: 100%;
+    right: 10%;
 }
 .header-right{
     position: absolute;
-    left: 0%;
+    left: 10%;
     font-size: 2rem;
 
 }
