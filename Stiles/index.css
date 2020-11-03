@@ -110,13 +110,13 @@ header{
 
 .review{
     display: flex;
-    width: 100%;
+    width: 98%;
+    justify-content: space-between;
+    margin: 0% 2%;
 }
 
 .pic{
     border-radius: 50%;
-    vertical-align: middle;
-
 }
 
 .box-1{
@@ -126,6 +126,8 @@ header{
     background-position: bottom left;
     background-repeat: no-repeat;
     background-color: white;
+    width: 31%;
+    margin: 0% 2%;
 }
 
 .box-2{
@@ -135,14 +137,31 @@ header{
     background-position: bottom left;
     background-repeat: no-repeat;
     background-color: white;
+    width: 31%;
+    margin: 0% 2%;
 }
 
 .box-3{
     border-bottom:5px solid red;
     background-color: white;
-
+    width: 31%;
+    margin: 0% 2%;
 }
 
+.position-pic{
+    display: flex;
+    width: 100%;
+}
+
+.pic3{
+    width: 40%;
+    margin: 3% 2%;
+}
+
+.text{
+    width: 60%;
+    margin: 10% 5%;
+}
 
 /*section-1 and task*/
 .section-1{
