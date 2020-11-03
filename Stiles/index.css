@@ -32,7 +32,7 @@ h2{
     text-align: center;
 }
 .section-6{
-    margin-top: ;
+    margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
 }
@@ -110,7 +110,9 @@ header{
 
 
 /* SECTION 2 */
-
+.section-2{
+    margin: 5% 0;
+}
 .benefits{
     display: flex;
     text-align: center;
@@ -119,7 +121,9 @@ header{
 
 
 /* SECTION 5 */
-
+.section-5{
+    margin: 10% 0;
+}
 .review{
     display: flex;
     width: 98%;
@@ -177,6 +181,7 @@ header{
 
 /*section-1 and task*/
 .section-1{
+    margin: 0 0 15% 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -277,7 +282,8 @@ header{
 .section-3{
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     
 }
 .section-3 .graphs{
@@ -287,7 +293,7 @@ header{
     position: relative;
 } 
 
-.graphs .first{
+.section-3 .graphs .first{
     position: absolute;
     top: 0;
     left: 0;
@@ -296,7 +302,7 @@ header{
     border-radius: 2%;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
 }
-.graphs .second{
+.section-3 .graphs .second{
     position: absolute;
     top: 40%;
     left: 30%;
@@ -306,19 +312,64 @@ header{
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
     
 }
-.section-3 .Text-content{
+.Text-content{
     flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 1;
     align-self: center;
 }
-.section-3 h2,p{
+.Text-content h2,p{
     text-align: left;
     padding:0;
     margin: 2% 0;
-    
 }
 .section-3 img {
     max-width: 100%;
     margin-top: 2%;
+}
+/*section 4*/
+.section-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.section-4 .Text-content{
+    position: relative;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-self: flex-end;
+}
+.section-4 .graphs{
+    position: relative;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.section-4 .graphs .first{
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    z-index: -4;
+    max-width:60%;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.section-4 .graphs .second{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -3;
+    max-width:100%;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*paragraph color for text-content and task classes*/
+.Text-content p,.task p{
+    color: rgb(173, 169, 169);
+}
+.Text-content p{
+    font-size: 1em;
 }
