@@ -200,7 +200,7 @@ header{
     padding-top: 10%;
     height: auto;
 }
-.task h1,p{
+.task h1,.task p{
     padding:2% ;
     margin: 0;
 }
@@ -318,7 +318,7 @@ header{
     flex-shrink: 1;
     align-self: center;
 }
-.Text-content h2,p{
+.Text-content h2,.Text-content p{
     text-align: left;
     padding:0;
     margin: 2% 0;
@@ -342,11 +342,12 @@ header{
     justify-self: flex-end;
 }
 .section-4 .graphs{
-    width: 100%;
-    position: relative;
     flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 1;
+    width: 100%;
+    position: relative;
+   
 }
 .section-4 .graphs .first{
     position: absolute;
@@ -354,7 +355,7 @@ header{
     right: 0;
     transform: translate(-50%,70%);
     z-index: -4;
-    max-width:80%;
+    max-width:50%;
     border-radius: 2%;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
@@ -363,7 +364,7 @@ header{
     top: 0;
     right: 0;
     z-index: -3;
-    max-width:80%;
+    max-width:50%;
     border-radius: 2%;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
