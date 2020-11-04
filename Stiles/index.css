@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 12px;
 }
+
 body{
     margin: 0;
     background-color: #f1f1f1;
@@ -20,6 +21,7 @@ h1{
 h2{
     font-family: "Muli";
     font-size: 2em;
+    text-align: center;
 }
 p{
     
@@ -28,19 +30,14 @@ p{
     font-weight: bold;
     color: black;
 }
-h2{
-    text-align: center;
-}
-
 h3{
     font-family:"Muli" ;
     font-size: 1.4em;
     font-weight: bold;
 }
+ /* SECTION 6 */
 
-/* SECTION 6 */
-
-.section-6{
+ .section-6{
     font-family: "Muli";
     margin-top: 10%;
     margin-bottom: 10%;
@@ -51,11 +48,10 @@ h3{
     color: rgb(173, 169, 169);
 
 } 
-
 .button{
     font-family:"Muli" ;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 0.6em 2em ;
     font-size: 100%;
     text-decoration: none;
     border-radius: 200px;
@@ -72,11 +68,10 @@ h3{
     background-color: red;
 
 }
-
 .email{
     font-family:"Muli" ;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 0.6em 2em;
     font-size: 100%;
     text-decoration: none;
     border-radius: 200px;
@@ -87,325 +82,376 @@ h3{
     outline: none;
 
 }
-/* HEADER */
 
 
-header{
-    font-family:"Muli" ;
-    margin-top:5%;
-    margin-bottom: 5%;
-    width: 80%;
-    height: 4em;
-    margin-left: 10%;
-}
-.header-left{
-    position: absolute;
-    right: 10%;
-}
-.header-right{
-    position: absolute;
-    left: 10%;
-    font-size: 2rem;
-
-}
-.free{
-    font-family:"Muli" ;
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 100%;
-    text-decoration: none;
-    border-radius: 200px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    outline: none;
-}
-.free:hover,
-.free:active
-{
-    background-color: red;
-
-}
-
-
-
-/* SECTION 2 */
-
-.section-2{
-    font-family:"Muli" ;
-    margin: 5% 0;
-}
-.benefits{
-    font-family:"Muli" ;
-    display: flex;
-    text-align: center;
-    padding:0% 5%;
-}
-
-.section-2 p {
-    color: rgb(173, 169, 169);
-}
-
-
-/* SECTION 5 */
-.section-5{
-    font-family:"Muli" ;
-    margin: 10% 0;
-}
-.review{
-    font-family:"Muli" ;
-    display: flex;
-    width: 98%;
-    justify-content: space-between;
-    margin: 0% 2%;
-}
-
-.pic{
-    border-radius: 50%;
-}
-
-.box-1{
-    font-family:"Muli" ;
-    padding-bottom: 10px;
-    background-image: linear-gradient(red,red);
-    background-size: 50% 5px;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-color: white;
-    width: 31%;
-    margin: 0% 2%;
-}
-
-.box-2{
-    font-family:"Muli" ;
-    padding-bottom: 10px;
-    background-image: linear-gradient(red,red);
-    background-size: 50% 5px;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-color: white;
-    width: 31%;
-    margin: 0% 2%;
-}
-
-.box-3{
-    font-family:"Muli" ;
-    border-bottom:5px solid red;
-    background-color: white;
-    width: 31%;
-    margin: 0% 2%;
-}
-
-.position-pic{
-    display: flex;
-    width: 100%;
-}
-
-.pic3{
-    width: 40%;
-    margin: 3% 2%;
-}
-
-.text{
-    font-family:"Muli" ;
-    width: 60%;
-    margin: 10% 5%;
-}
-
-/*section-1 and task*/
-.section-1{
-    margin: 0 0 15% 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "task boxes" 
-    "logo boxes";
-    margin-bottom: 10%;  
 
    
-}
-.task{
-    grid-area: task;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding-top: 10%;
-    height: auto;
-}
-.task h1,.task p{
-    padding:2% ;
-    margin: 0;
-}
-.task .input-box{
-    padding-top: 7%;
-    display: inline-block;
     
+    /* HEADER */
 
-}
-.logo{
-    width: 100%;
-    height: auto;
-    margin-top: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-    
-}
-.logo img{
-    margin:0;
-    width: 30%;
-    padding: 3%;
-    align-self: center;
-    justify-self: start;
-    justify-content: space-between;
-    
-}
-#CN{
-    width: 15%;
-}
-/*kutijicee*/
-.box{
-  position: relative;  
-  grid-area: boxes;
-  max-width: 100%;
-  
-}
-/*shadow for graphics, top right*/
-.boxes{
 
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
-    max-width: 100%;
-    height: auto;
-    border-radius: 2%;
-    position: absolute;
-    margin:5% 0;
-}
-/*edited positions of 4 graphics*/
-.profile{
-    z-index: -11;
-    margin-top: 2%;
-    left: 30%;
-    max-width: 60%;
-   
-}
-.chart{
-    max-width: 100%;
-    z-index: -12;
-    margin-top: 35%;
-    transform: rotate(8deg);
-}
-.topEarners{
-    z-index: -13;
-    max-width: 60%;
-    margin-top: 55%;
-    right: -20%;
-   
-}
-.rank{
-    z-index: -14;
-    max-width: 60%;
-    transform: rotate(-10deg);
-    margin-top: 60%;
-    left: 20%;
-}
-/*section-3*/
-.section-3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    
-}
-.section-3 .graphs{
-    flex-basis: 50%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    position: relative;
-} 
+    header{
+        font-family:"Muli" ;
+        margin-top:5%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 4em;
+        margin-left: 10%;
+    }
+    .header-left{
+        position: absolute;
+        right: 10%;
+    }
+    .header-right{
+        position: absolute;
+        left: 10%;
+        font-size: 2rem;
 
-.section-3 .graphs .first{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5;
-    max-width: 60%;
-    border-radius: 2%;
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
-}
-.section-3 .graphs .second{
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    z-index: -4;
-    max-width:40%;
-    border-radius: 2%;
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+    /*try free button css*/
+    .free{
+        font-family:"Muli" ;
+        display: inline-block;
+        padding: 0.6em 2em;
+        font-size: 100%;
+        text-decoration: none;
+        border-radius: 200px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        outline: none;
+    }
     
-}
-.Text-content{
-    flex-basis: 50%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    align-self: center;
-}
-.Text-content h2,.Text-content p{
-    text-align: left;
-    padding:0;
-    margin: 2% 0;
-}
-.section-3 img {
-    max-width: 100%;
-    margin-top: 2%;
-}
-/*section 4*/
-.section-4{
-    display: flex;
-    flex-direction: row;
-    margin-top: 15%;
-    margin-bottom: 10%;
-}
-.section-4 .Text-content{
-    position: relative;
-    flex-basis: 50%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    justify-self: flex-end;
-}
-.section-4 .graphs{
-    flex-basis: 50%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    width: 100%;
-    position: relative;
-   
-}
-.section-4 .graphs .first{
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-50%,70%);
-    z-index: -4;
-    max-width:50%;
-    border-radius: 2%;
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
-}
-.section-4 .graphs .second{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -3;
-    max-width:50%;
-    border-radius: 2%;
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
-}
+    .free:hover,
+    .free:active
+    {
+        background-color: red;
 
-/*paragraph color for text-content and task classes*/
-.Text-content p,.task p{
-    color: rgb(173, 169, 169);
-}
-.Text-content p{
-    font-size: 1em;
+    }
+    /*seconde section*/
+    .section-2{
+        font-family:"Muli" ;
+        margin: 10% 0;
+    }
+    .benefits{
+        font-family:"Muli" ;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding:0% 5%;
+    }
+
+    .section-2 p {
+        color: rgb(173, 169, 169);
+    }
+    /*section 5*/    
+    .pic{
+        border-radius: 50%;
+    }
+
+    .box-1{
+        font-family:"Muli" ;
+        padding-bottom: 0.8em;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+    }
+
+    .box-2{
+        font-family:"Muli" ;
+        padding-bottom: 10px;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+    }
+
+    .box-3{
+        font-family:"Muli" ;
+        border: bottom 0.6em; solid red;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+    }
+
+
+
+    .position-pic{
+        display: flex;
+        width: 100%;
+    }
+
+    .pic3{
+        width: 40%;
+        margin: 3% 2%;
+    }
+
+    .text{
+        font-family:"Muli" ;
+        width: 60%;
+        margin: 10% 5%;
+    }
+    /*section1*/
+    .section-1{
+        margin: 0 0 10% 0;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto ;
+        grid-template-areas: "task" 
+        "logo";
+    }
+    .task{
+        grid-area: task;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding-top: 10%;
+        height: auto;
+    }
+    .task h1,.task p{
+        padding:2% ;
+        margin: 0;
+    }
+    .task .input-box{
+        padding-top: 7%;
+        display: inline-block;
+        
+
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        
+    }
+    .logo img{
+        margin:0;
+        width: 45%;
+        padding: 3%;
+        align-self: center;
+        justify-self: start;
+        justify-content: space-between;
+        
+    }
+    .logo img:last-child {
+        position: relative;
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #CN{
+        width: 30%;
+    }
+    .box{
+        display: none;
+    }
+    /*shadow and some other settings, these aplies later when its shown,currently on display none*/
+    .boxes{
+
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+        max-width: 100%;
+        height: auto;
+        border-radius: 2%;
+        position: absolute;
+        margin:5% 0;
+    }
+    /*edited positions of 4 graphics,those also show later on responsive*/
+    .profile{
+        z-index: -11;
+        margin-top: 2%;
+        left: 30%;
+        max-width: 60%;
+    
+    }
+    .chart{
+        max-width: 100%;
+        z-index: -12;
+        margin-top: 35%;
+        transform: rotate(8deg);
+    }
+    .topEarners{
+        z-index: -13;
+        max-width: 60%;
+        margin-top: 55%;
+        right: -20%;
+    
+    }
+    .rank{
+        z-index: -14;
+        max-width: 60%;
+        transform: rotate(-10deg);
+        margin-top: 60%;
+        left: 20%;
+    }
+    /*paragraph color for text-content and task classes*/
+    .Text-content p,.task p{
+        color: rgb(173, 169, 169);
+    }
+    .Text-content p{
+        font-size: 1em;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+    }
+    .section-3 .graphs{
+        order: 2;
+    }
+    .section-3 .Text-content{
+        order: 1;
+    }
+
+@media only screen and (min-width:769px){
+    /*section2 benefits*/
+    .benefits{
+        display: flex;
+        flex-direction: row;
+    }
+    /*section 5*/
+    .review{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*section-1 and task*/
+    .section-1{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "task boxes" 
+        "logo boxes";
+    }
+    
+    .logo img{
+        width: 30%;  
+    }
+    .logo img:last-child{
+        position: relative;
+        width: 30%;
+        left: 0;
+        transform: translateX(0);        
+    }
+    #CN{
+        width: 20%;
+    }
+
+    
+    /*kutijicee*/
+    .box{
+            display: block;
+            position: relative;  
+            grid-area: boxes;
+            max-width: 100%;
+            
+    }
+    /*shadow for graphics, top right*/
+    
+    
+    /*section-3*/
+    .section-3{
+        flex-direction: row;
+    }
+    
+    .section-3 .graphs{
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        position: relative;
+    } 
+
+    .section-3 .graphs .first{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -5;
+        max-width: 60%;
+        border-radius: 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+    .section-3 .graphs .second{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        z-index: -4;
+        max-width:40%;
+        border-radius: 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+        
+    }
+    .Text-content{
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-self: center;
+    }
+    .Text-content h2,.Text-content p{
+        text-align: left;
+        padding:0;
+        margin: 2% 0;
+    }
+    .section-3 img {
+        max-width: 100%;
+        margin-top: 2%;
+    }
+    /*section 4*/
+    .section-4{
+        display: flex;
+        flex-direction: row;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .section-4 .Text-content{
+        position: relative;
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        justify-self: flex-end;
+    }
+    .section-4 .graphs{
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 100%;
+        position: relative;
+    
+    }
+    .section-4 .graphs .first{
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%,70%);
+        z-index: -4;
+        max-width:50%;
+        border-radius: 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+    }
+    .section-4 .graphs .second{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -3;
+        max-width:50%;
+        border-radius: 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    
 }
