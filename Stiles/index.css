@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 body{
@@ -15,8 +15,9 @@ body{
 }
 h1{
     font-family:"Muli" ;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold ;
+    text-align: center;
 }
 h2{
     font-family: "Muli";
@@ -26,7 +27,8 @@ h2{
 p{
     
     font-family: "Muli";
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: center;
     font-weight: bold;
     color: black;
 }
@@ -34,6 +36,12 @@ h3{
     font-family:"Muli" ;
     font-size: 1.4em;
     font-weight: bold;
+}
+.input-box{
+    text-align: center;
+}
+.input-box form input{
+    margin-top: 2%;
 }
  /* SECTION 6 */
 
@@ -175,7 +183,7 @@ h3{
 
     .box-3{
         font-family:"Muli" ;
-        border: bottom 0.6em; solid red;
+        border: bottom 0.6em solid red;
         background-color: white;
         width: 31%;
         margin: 0% 2%;
@@ -213,7 +221,7 @@ h3{
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-top: 10%;
+        padding-top: 15%;
         height: auto;
     }
     .task h1,.task p{
@@ -312,13 +320,32 @@ h3{
         
     }
     .section-3 .graphs{
+        position: relative;
         order: 2;
+    }
+    .section-3 .graphs .first{
+        position: relative;
+        max-width: 60%;
+    }
+    .section-3 .graphs .second{
+       position: relative;
+        max-width: 60%;
     }
     .section-3 .Text-content{
         order: 1;
     }
-
+    /*section 4 img sizes and basic*/
+    .section-4 img{
+        max-width: 60%;
+    }
+     
 @media only screen and (min-width:769px){
+    *{
+        font-size: 16px;
+    }
+    h1,p{
+        text-align: left;
+    }
     /*section2 benefits*/
     .benefits{
         display: flex;
@@ -371,11 +398,13 @@ h3{
     }
     
     .section-3 .graphs{
+        order: 1;
         flex-basis: 50%;
         flex-grow: 1;
         flex-shrink: 1;
         position: relative;
-    } 
+    }
+    
 
     .section-3 .graphs .first{
         position: absolute;
@@ -408,15 +437,19 @@ h3{
         margin: 2% 0;
     }
     .section-3 img {
-        max-width: 100%;
+        max-width: 80%;
         margin-top: 2%;
+    }
+
+    .section-3 .Text-content{
+        order: 2;
     }
     /*section 4*/
     .section-4{
         display: flex;
         flex-direction: row;
         margin-top: 15%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
     .section-4 .Text-content{
         position: relative;
@@ -435,22 +468,24 @@ h3{
     }
     .section-4 .graphs .first{
         position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-50%,70%);
+        top: 10%;
+        right: 33%;
         z-index: -4;
-        max-width:50%;
+        max-width:70%;
         border-radius: 2%;
         box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
     }
     .section-4 .graphs .second{
         position: absolute;
-        top: 0;
+        margin-top: -25%;
         right: 0;
         z-index: -3;
-        max-width:50%;
+        max-width:70%;
         border-radius: 2%;
         box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+    }
+    .section-6 p {
+        text-align: center;
     }
 
     
