@@ -92,6 +92,10 @@ h3{
     margin-right: 15px;
     outline: none;
 }
+.logo-pic{
+    height:25% ;
+    width:40%;
+}
  
     /*try free button css*/
     .free{
@@ -134,9 +138,14 @@ h3{
         flex-direction: row;
         margin: 0% 5%;
     }
+    .pic5{
+        max-width: 80%;
+        border-radius: 50%;
 
+    }
 
     .pic{
+        max-width: 100%;
         border-radius: 50%;
     }
 
