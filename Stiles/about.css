@@ -1,3 +1,7 @@
+*{
+    font-size: 12px;
+}
+
 
 img{
     border-radius: 50%;
@@ -7,7 +11,7 @@ img{
 .contact{
     font-family:"Muli" ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 
 }
@@ -69,4 +73,15 @@ ul {
 
 }
 
+@media only screen and (min-width: 600px)
+{
+    *{
+        font-size: 16px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
