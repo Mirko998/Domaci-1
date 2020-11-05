@@ -52,4 +52,23 @@ h1{
     animation-direction: alternate;
 }
 
-  
+@keyframes animation {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+.social {
+    width: 50%;
+    height: 50%;
+    background-color: none;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+

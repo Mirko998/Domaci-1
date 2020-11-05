@@ -1,3 +1,4 @@
+
 .contact{
     display: flex;
     flex-direction: row;
@@ -12,4 +13,8 @@ h1{
 }
 .box-2{
     margin: 0% 5%;
+}
+
+.social{
+
 }

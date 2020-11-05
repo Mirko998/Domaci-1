@@ -43,6 +43,7 @@ h3{
 .input-box form input{
     margin-top: 2%;
 }
+
  /* SECTION 6 */
 
 .section-6{
@@ -88,13 +89,8 @@ h3{
     color: gray;
     margin-right: 15px;
     outline: none;
-
 }
-
-
-
-   
-    
+ 
     /* HEADER */
 
 
@@ -106,6 +102,9 @@ h3{
         height: 4em;
         margin-left: 10%;
     }
+    
+
+
     .header-left{
         position: absolute;
         right: 10%;
@@ -114,8 +113,8 @@ h3{
         position: absolute;
         left: 10%;
         font-size: 2rem;
-
     }
+
     /*try free button css*/
     .free{
         font-family:"Muli" ;
