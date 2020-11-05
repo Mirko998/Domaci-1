@@ -1,0 +1,17 @@
+
+
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.box-1{
+    margin: 0% 5%;
+}
+.box-2{
+    margin: 0% 5%;
+}

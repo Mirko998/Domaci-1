@@ -45,7 +45,7 @@ h3{
 }
  /* SECTION 6 */
 
- .section-6{
+.section-6{
     font-family: "Muli";
     margin-top: 10%;
     margin-bottom: 10%;
@@ -153,6 +153,12 @@ h3{
         color: rgb(173, 169, 169);
     }
     /*section 5*/    
+    .review{
+        flex-direction: row;
+        margin: 0% 5%;
+    }
+
+
     .pic{
         border-radius: 50%;
     }
@@ -183,7 +189,7 @@ h3{
 
     .box-3{
         font-family:"Muli" ;
-        border: bottom 0.6em solid red;
+        border-bottom: 0.6em solid red;
         background-color: white;
         width: 31%;
         margin: 0% 2%;
@@ -194,6 +200,41 @@ h3{
     .position-pic{
         display: flex;
         width: 100%;
+    }
+    
+    .box-1{
+        font-family:"Muli" ;
+        padding-bottom: 0.8em;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 50%;
+        margin: 4% 25%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+
+    .box-2{
+        font-family:"Muli" ;
+        padding-bottom: 10px;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 50%;
+        margin: 4% 25%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+
+    .box-3{
+        font-family:"Muli" ;
+        border-bottom: 0.6em solid red;
+        background-color: white;
+        width: 50%;
+        margin: 4% 25%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
     }
 
     .pic3{
@@ -343,6 +384,23 @@ h3{
     .section-4 img{
         max-width: 60%;
     }
+@media only screen and (min-width: 1024px) { */
+    /* For tablets: */
+    
+    /*Section 5 */
+    .review {
+        flex-direction: column;
+        margin: 0% 10%;
+    }
+    
+    .box-1 , .box-2 , .box-3 {
+        margin: 2% 0%;
+        width: 40%;
+    }
+    h2{
+        text-align: center;
+    }
+}
      
 @media only screen and (min-width:769px){
     *{
@@ -360,6 +418,47 @@ h3{
     .review{
         display: flex;
         flex-direction: row;
+
+    }
+
+    .pic{
+        border-radius: 50%;
+    }
+
+
+    .box-1{
+        font-family:"Muli" ;
+        padding-bottom: 0.8em;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+
+    .box-2{
+        font-family:"Muli" ;
+        padding-bottom: 10px;
+        background-image: linear-gradient(red,red);
+        background-size: 50% 0.6em;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+    }
+
+    .box-3{
+        font-family:"Muli" ;
+        border-bottom: 0.6em solid red;
+        background-color: white;
+        width: 31%;
+        margin: 0% 2%;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
     }
 
     /*section-1 and task*/
