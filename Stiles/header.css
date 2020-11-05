@@ -1,0 +1,67 @@
+
+  
+    header{
+        font-family:"Muli" ;
+        margin-top:1%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: 4em;
+        margin-left: 10%;
+    }
+    
+    .header-right{
+        position: relative;
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        
+    }
+    .header-left{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+    }
+    .header-right{
+        width: 50%;
+        position: absolute;
+        left: 10%;
+        font-size: 2rem;
+    }
+    .menu a{
+        margin-right: 2%;
+        text-decoration: none;
+        color: black;
+    }
+    .menu a.active{
+        border-bottom: rgb(212, 8, 8) solid 3px;
+    }
+    .menu a:hover{
+        border-bottom: gray 3px solid;
+    }
+  @media only screen and (min-width:600px){
+        /* HEADER */
+
+    .dropbtn{
+        display: none;
+    }
+    
+    .header-right:hover .menu{
+        position: relative;
+       
+    }
+    .menu{
+        display: inline-block;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    
+  }
+  @media only screen and (max-width:600px){
+    .header-right:hover .menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+}

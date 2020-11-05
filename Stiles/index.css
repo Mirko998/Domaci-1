@@ -4,11 +4,13 @@
 }
 
 body{
+    position: relative;
     margin: 0;
     background-color: #f1f1f1;
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -91,30 +93,6 @@ h3{
     outline: none;
 }
  
-    /* HEADER */
-
-
-    header{
-        font-family:"Muli" ;
-        margin-top:5%;
-        margin-bottom: 5%;
-        width: 80%;
-        height: 4em;
-        margin-left: 10%;
-    }
-    
-
-
-    .header-left{
-        position: absolute;
-        right: 10%;
-    }
-    .header-right{
-        position: absolute;
-        left: 10%;
-        font-size: 2rem;
-    }
-
     /*try free button css*/
     .free{
         font-family:"Muli" ;
@@ -248,7 +226,7 @@ h3{
     }
     /*section1*/
     .section-1{
-        margin: 0 0 10% 0;
+        margin: 6em 0 10% 0;
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: auto ;
