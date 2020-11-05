@@ -1,20 +1,4 @@
 
-.contact{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-.box-1{
-    margin: 0% 5%;
-}
-
-.box-2{
-    margin: 0% 5%;
-}
-
-
  /* SECTION 6 */
 
  .section-6{
@@ -61,52 +45,41 @@
     margin-right: 15px;
     outline: none;
 }
-ul {
-    list-style-type: none;
-}
 
-li p{
-
-}
-
-
-/*ICONS*/
-
-.facebook{
+/* FORM */
+form{
     font-family:"Muli" ;
-    font-size: 100%;
-    text-decoration: none;
-    background-color: none;
-    color: white;
-    outline: none;
+    font-style: oblique;
 }
 
-.facebook:hover
-{
-    background-color: #0755ff;
-    border-radius: 50%;
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+  input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+label{
+    font-family:"Muli" ;
+    font-size: 1.1em;
+    color: rgb(51, 1, 1);
+    font-style: bold;
 }
 
-.instagram:hover {
-    background-color: #ee1c00;
-    border-radius: 50%;
-
-}
-
-.snapchat:hover {
-    background-color: #fbff00;
-    border-radius: 50%;
-
-}
-
-.whatsupp:hover {
-    background-color: #00a329;
-    border-radius: 50%;
-
-}
-
-.mail:hover{
-    background-color: rgb(4, 151, 156);
-    border-radius: 50%;
-
+.contact-form{
+    margin: 0% 2%;
 }
