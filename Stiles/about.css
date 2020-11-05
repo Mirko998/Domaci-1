@@ -1,17 +1,60 @@
-
-
-
-
 .contact{
     display: flex;
     flex-direction: row;
 }
 
-
-
 .box-1{
     margin: 0% 5%;
 }
+
 .box-2{
     margin: 0% 5%;
+}
+
+
+ /* SECTION 6 */
+
+ .section-6{
+    font-family: "Muli";
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.section-6 p{
+    color: rgb(173, 169, 169);
+
+} 
+.button{
+    font-family:"Muli" ;
+    display: inline-block;
+    padding: 0.6em 2em ;
+    font-size: 100%;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #d34242;
+    border: 1px solid #ff0000;
+    color: white;
+    margin-right: 15px;
+    outline: none;
+}
+
+.button:hover,
+.buttonn:active
+{
+    background-color: red;
+
+}
+.email{
+    font-family:"Muli" ;
+    display: inline-block;
+    padding: 0.6em 2em;
+    font-size: 100%;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: white;
+    border: 1px solid rgb(124, 119, 119);
+    color: gray;
+    margin-right: 15px;
+    outline: none;
 }
